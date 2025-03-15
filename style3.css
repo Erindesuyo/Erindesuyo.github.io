@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(96, 156, 212); /* 연두색 배경 */
+    background-color: rgb(96, 156, 212); 
     margin: 0;
     overflow: hidden;
 }
@@ -10,7 +10,7 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
-    background-color: #e8e5ff; /* 노란색 배경 */
+    background-color: #e8e5ff; 
     color: black;
     font-size: 16px;
     border: none;
@@ -22,5 +22,5 @@ body {
 
 
 #colorChangeButton:hover {
-    background-color: #b9b4e0; /* 주황색 계열로 변경 */
+    background-color: #b9b4e0; 
 }
