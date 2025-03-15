@@ -1,0 +1,26 @@
+
+body {
+    background-color: rgb(96, 156, 212); /* 연두색 배경 */
+    margin: 0;
+    overflow: hidden;
+}
+
+
+#colorChangeButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #e8e5ff; /* 노란색 배경 */
+    color: black;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#colorChangeButton:hover {
+    background-color: #b9b4e0; /* 주황색 계열로 변경 */
+}
