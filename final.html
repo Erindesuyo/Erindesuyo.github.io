@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virus Hunting</title>
+  <link rel="stylesheet" href="virus.css">
+</head>
+
+
+<body>
+  <div id="intro">
+    <div id="intro-text">You are a scientist.<br>Eliminate all viruses to save human.</div>
+  </div>
+
+  <div id="ui">
+    
+    <div id="virus-counter">Left Virus 🦠 10</div>
+    <div id="time-counter">Time: 0.0s</div>
+  </div>
+
+
+  <div id="outro" class="hidden">
+    <div id="outro-text">You killed all viruses!</div>
+    <div id="time-result"></div> 
+    <button id="restart-btn-outro">Try Again</button>
+  </div>
+
+
+  <div id="game-over" class="hidden">
+    <div id="game-over-text">You killed a cell!</div>
+    <button id="restart-btn">Try Again</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="virus.js"></script>
+
+
+</body>
+</html>
+
