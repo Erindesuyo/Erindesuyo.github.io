@@ -1,88 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=divice-width,
-    initial-scale=1.0">
-
-    <title> Erin Assignment website</title>
-
-    <style>
-        div {
-            background-color: rgb(85, 119, 160);
-            width: 700px;
-            text-align: center;
-        }
-
-    </style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erin Assignment Website</title>
+    <link rel="stylesheet" href="style.css">
     <script src="p5.min.js"></script>
 </head>
-
 <body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="header-title">Welcome to my assignment</h1>
+        </header>
 
-    <div>
-    <h1 style="color: rgb(255, 255, 255);">  Welcome to my assignment 🪽 </h1>
-    </div>
+        <!-- Assignment Section -->
+        <section class="assignment">
+            <h2 class="section-title">Assignment</h2>
+            <div class="button-group">
+                <a href="assignment2.html" class="btn">2</a>
+                <a href="assignment3.html" class="btn">3</a>
+                <a href="assignment4.html" class="btn">4</a>
+                <a href="../Virus hunting/final.html" class="btn">Final!</a>
+            </div>
+        </section>
 
-    <a href="https://www.ocadu.ca/careers?gad_source=1&gclid=
-    CjwKCAiAkc28BhB0EiwAM001Tdd-fW9j1qtfFCkB3LciQWS8tiNloOlSF
-    xcoIfk6CQS5Q_fGbMaZuhoCA5QQAvD_BwE" target="blank">
+        <!-- Labs Section -->
+        <section class="labs">
+            <h2 class="section-title">Labs</h2>
+            <div class="circle-group">
+                <a href="lab1.html" class="circle">1</a>
+                <a href="lab2.html" class="circle">2</a>
+                <a href="lab3.html" class="circle">3</a>
+                <a href="lab4.html" class="circle">4</a>
+                <a href="lab5.html" class="circle">5</a>
+            </div>
+        </section>
 
-    <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNtC-JjBF8EMTPLTmdLnACXUo6M4JgAHsiiA&s"
-    width="50" height="50" title="ocad link"/>
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2 class="section-title">Contact</h2>
+            <a class="email-btn" href="mailto:kerin@ocadu.ca">kerin@ocadu.ca</a>
 
-    </a>
-    &nbsp; &nbsp; &nbsp;
+            <footer class="icon-bar">
+                <a href="https://www.ocadu.ca/careers?gad_source=1&gclid=CjwKCAiAkc28BhB0EiwAM001Tdd-fW9j1qtfFCkB3LciQWS8tiNloOlSFxcoIfk6CQS5Q_fGbMaZuhoCA5QQAvD_BwE" target="_blank">
+                    <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNtC-JjBF8EMTPLTmdLnACXUo6M4JgAHsiiA&s" title="ocad link">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq03Zhg_SEE1Vr7T4rwRoKMLb5fanYRUYwSg&s" title="youtube">
+                </a>
+                <a href="https://kr.pinterest.com/" target="_blank">
+                    <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr9kQLQM6b3SILGflH3b0pOq7xomR22OZ-4Q&s" title="pinterest">
+                </a>
+            </footer>
+        </section>
 
-    <a href="https://www.youtube.com/" target="blank">
-    <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq03Zhg_SEE1Vr7T4rwRoKMLb5fanYRUYwSg&s"
-    width="50" height="50" title="youtube">
-    </image>
-    </a>
 
-    &nbsp; &nbsp; &nbsp;
-
-    <a href="https://kr.pinterest.com/" target="blank">
-    <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr9kQLQM6b3SILGflH3b0pOq7xomR22OZ-4Q&s"
-    weight="50" height="50" title="pinterest">
-    </image>
-    </a>
-
-    <hr>
-    
-    <h3>Assignment</h3>
-    <ul>
-        <li><a href="assignment2.html">assignment 2</a></li>
-         <!--(just my memo to remind, a href=""쓰고 괄호 닫고 바로 링크 이름 그리고 a/>로 닫아야함 )-->
-
-        <li><a href="assignment3.html">assignment 3</a></li>
-        <li><a href="assignment4.html">assignment 4</a></li>
-        <li><a href="assignment5.html">assignment 5</a></li>
-        <li><a href="Final.html">Final!</a> </li>
-    
-    </ul>
-    <hr>
-
-    <h3>Labs</h3>
-    <ul>
-        <li><a href="lab1.html">Lab 1</a> </li>
-        <li><a href="lab2.html">Lab 2</a> </li>
-        <li><a href="lab3.html">Lab 3 </a> </li>
-        <li><a href="lab4.html">Lab 4</a> </li>
-        <li><a href="lab5.html">Lab 5</a> </li>
-        
-    </ul>
-    <hr>
-
-    <h3>Contact</h3>
-    <a href="mailto:kerin@ocadu.ca">
-        kerin@ocadu.ca
-    </a>
-    
-    <script src="sketch.js"></script>
-
+    <!-- Scripts -->
     <script src="script.js"></script>
-
+    <script src="sketch.js"></script>
 </body>
 </html>
+
